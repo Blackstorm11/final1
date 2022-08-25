@@ -3,6 +3,7 @@
 }
 .box1 {
   color: rgb(238, 192, 203);
+  
 }
 h1 {
   padding: 50px;
@@ -136,6 +137,11 @@ h1 {
 @media (max-width: 600px){
   .innerbox {
     display: none!important;
+  }
+}
+@media (min-width:1025){
+  .box1{
+    margin-bottom: 200px;
   }
 }
 

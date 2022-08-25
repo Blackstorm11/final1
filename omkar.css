@@ -1,0 +1,175 @@
+.box {
+  background-color: black;
+}
+.box1 {
+  color: rgb(238, 192, 203);
+}
+h1 {
+  padding: 50px;
+}
+
+.bolded1 {
+  font-weight: bold;
+  color: #e2eee2;
+}
+
+.buttonbox {
+  padding-top: 20px;
+  display: flex;
+  min-height: 45vh;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.btn2 .hbutton {
+  top: 20px;
+  position: relative;
+  background: rgb(48, 46, 46);
+  color: white;
+  text-decoration: none;
+  text-transform: "";
+  font-size: 1cm;
+  letter-spacing: 0.16cm;
+  font-weight: 300;
+  padding: 6px 24px;
+  transition: 0.5s;
+}
+.bb:hover {
+  letter-spacing: 0.18cm;
+  background: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+.bb::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: black;
+}
+.bb span1 {
+  position: relative;
+  z-index: 1;
+}
+.bb i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.bb i::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 100%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: black;
+  border: 2px solid var(--clr);
+  transition: 0.5s;
+}
+.bb:hover i::before {
+  left: 0%;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: 52px 51px var(--clr);
+}
+.bb i::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: black;
+  border: 2px solid var(--clr);
+  transition: 0.5s;
+}
+.bb:hover i::after {
+  left: 100%;
+  transform: translateX(-50%) rotate(-45deg);
+  box-shadow: 51px -52px var(--clr);
+}
+.btn2 .h2button {
+  top: 20px;
+  position: relative;
+  background: rgb(48, 46, 46);
+  color: white;
+  text-decoration: none;
+  text-transform: "";
+  font-size: 0.85cm;
+  letter-spacing: 0.16cm;
+  font-weight: 300;
+  padding: 10px 17px;
+  transition: 0.5s;
+}
+.btn3 .h3button {
+  top: 20px;
+  position: relative;
+  background: rgb(48, 46, 46);
+  color: white;
+  text-decoration: none;
+  text-transform: "";
+  font-size: 0.8cm;
+  letter-spacing: 0.16cm;
+  font-weight: 300;
+  padding: 12px 12px;
+  transition: 0.5s;
+}
+.btn4 .h4button {
+  top: 20px;
+  position: relative;
+  background: rgb(48, 46, 46);
+  color: white;
+  text-decoration: none;
+  text-transform: "";
+  font-size: 0.8cm;
+  letter-spacing: 0.15cm;
+  font-weight: 300;
+  padding: 13px 17px;
+  transition: 0.5s;
+}
+
+.box2 {
+  padding: 50px;
+  padding-top: 17%;
+  padding-bottom: 10%;
+}
+@media (max-width: 600px){
+  .innerbox {
+    display: none!important;
+  }
+}
+
+.innerbox {
+  background-color: #e5e4e2;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.Hboxtitle {
+  width: 40%;
+  margin: 0;
+  padding: 2%;
+  color: #000;
+  font-size: 24px;
+}
+
+.Hexample {
+  background-color: blanchedalmond;
+  height: 295px;
+  padding: 10px;
+}
+.Htext {
+  color: #000;
+  font-size: 0.5cm;
+}
+
+.trybtn1 .btn {
+  border-radius: 50px;
+  vertical-align: middle;
+  background: rgb(42, 161, 42);
+  margin-top: 20px;
+}
+.trybtn1 :hover {
+  color: black;
+}

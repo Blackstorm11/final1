@@ -1,0 +1,125 @@
+<div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <img
+        src="images/w3schools-logo-icon.png"
+        width="50"
+        class="navbar-brand"
+      />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- Tutorials -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Tutorials
+            </a>
+            <ul class="dropdown-menu">
+              <li><p class="dropdown-item1">Tutorials</p></li>
+              <li><a class="dropdown-item" href="#">Html</a></li>
+              <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            </ul>
+          </li>
+          <!-- References -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              References
+            </a>
+            <ul class="dropdown-menu">
+              <li><p class="dropdown-item1">References</p></li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.w3schools.com/tags/default.asp"
+                  >Html Reference
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="https://www.w3schools.com/jsref/default.asp"
+                  >JavaScript Reference</a
+                >
+              </li>
+            </ul>
+          </li>
+          <!-- Exercises -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Exercises
+            </a>
+            <ul class="dropdown-menu">
+              <li><p class="dropdown-item1">Exercises And Quizzes</p></li>
+              <li><a class="dropdown-item" href="#">Html Exercises</a></li>
+              <li>
+                <a class="dropdown-item" href="#">JavaScript Exercises</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Below NAVBAR -->
+  <div class="container2">
+    <p class="lcont-head">Learn To Code</p>
+    <p class="pa">With the world's largest web developer site.</p>
+    <!-- search bar -->
+    <div class="search">
+      <input
+        list="state"
+        id="states"
+        onchange="window.location.href=this.value;"
+        placeholder="Search Our Tutorials"
+      />
+      <datalist id="state">
+        <option value="https://www.w3schools.com/html/default.asp">html</option>
+        <option value="https://www.w3schools.com/js/default.asp">
+          javascript
+        </option>
+      </datalist>
+      <div class="sbutton">
+        <a href="#"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+    <a class="hyper" href="https://www.w3schools.com/where_to_start.asp"
+      >Not Sure Where to Beigin?</a
+    >
+  </div>
+  <div class="black"></div>
+  <a
+    class="get"
+    href="https://campus.w3schools.com/collections/course-catalog"
+    type="button"
+    >Get Certified</a
+  >
+  <a
+    class="log"
+    href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
+    type="button"
+    >Login</a
+  >
+</div>

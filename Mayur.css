@@ -1,0 +1,78 @@
+.boxx {
+  background-color: #ffe87c;
+}
+
+.green {
+  background-color: green;
+}
+
+h1 {
+  padding: 50px;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.buttonboxx {
+  padding: 40px;
+}
+
+.forbutton .btn {
+  width: 250px;
+  border-radius: 50px;
+}
+
+.reference .btn {
+  background-color: aliceblue;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.certificate .btn {
+  background-color: pink;
+  border-radius: 50px;
+  width: 250px;
+}
+
+.boxx2 {
+  padding: 50px;
+  padding-top: 70px;
+}
+
+.innerboxx {
+  background-color: #e5e4e2;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 600px){
+  .innerboxx {
+    display: none!important;
+  }
+}
+
+
+.boxtitle {
+  width: 40%;
+  margin: 0;
+  padding: 0%;
+  color: black;
+  font-size: 24px;
+}
+
+.example {
+  background-color: blanchedalmond;
+  height: 200px;
+  padding: 10px;
+}
+.text {
+  color: black;
+}
+
+.trybtn .btn {
+  border-radius: 50px;
+  margin-top: 20px;
+}
